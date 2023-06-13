@@ -1,9 +1,9 @@
 (function ($) {
   "use strict";
-  var bostami = {
+  var nh = {
     m: function (e) {
-      bostami.d();
-      bostami.methods();
+      nh.d();
+      nh.methods();
     },
 
     d: function (e) {
@@ -13,18 +13,18 @@
         (this._html = $("html"));
     },
     methods: function (e) {
-      bostami.darkToLight();
-      bostami.darkToLightMobile();
-      bostami.preloader_load();
-      bostami.preloader_svg();
-      bostami.mobileMenu();
-      bostami.setDark();
-      bostami.setDark1();
-      bostami.setLight();
-      bostami.setLight1();
-      bostami.istopeActivation();
-      bostami.preloader();
-      bostami.slickActive();
+      nh.darkToLight();
+      nh.darkToLightMobile();
+      nh.preloader_load();
+      nh.preloader_svg();
+      nh.mobileMenu();
+      nh.setDark();
+      nh.setDark1();
+      nh.setLight();
+      nh.setLight1();
+      nh.istopeActivation();
+      nh.preloader();
+      nh.slickActive();
     },
 
     // mobile view dark to light function
@@ -446,7 +446,7 @@
 
     // slick slider active function
   };
-  bostami.m();
+  nh.m();
 })(jQuery, window);
 
 
@@ -464,9 +464,12 @@ new TypeIt("#companionMethods", {
   speed: 50,
   waitUntilVisible: true,
 })
-  .type("Hwllo,", { delay: 900 })
+  .type("Hwllo,", { delay: 1500 })
   .move(-4)
   .delete(1)
   .type("e")
   .move(null, { to: "END" })
   .go();
+
+
+
